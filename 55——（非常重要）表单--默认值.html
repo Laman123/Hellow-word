@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<head>
+<title>新建网页</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="布尔教育 http://www.itbool.com" />
+</head>    
+<body>
+    	<div>
+    		收集用户信息，送往后台。
+    	</div>
+    	<form action="">
+    	<p>
+    		用户名:<input type="text"name="username" value="1025"/>
+    	</p>
+    	<p>
+              密码：<input type="password"name="password" />
+    	</p>
+    	<p>
+    		性别：男<input type="radio" name="xingbie"value="男"/>
+    		      女<input type="radio"name="xingbien女"value="女" checked="checked"/>
+    	</p>
+    	<p>
+    		爱好：篮球<input type="checkbox"name="hobby"value="篮球"/>
+    		      足球<input type="checkbox"name="hobby"value="足球"/>
+    		      台球<input type="checkbox"name="hobby"value="台球" checked="checked"/>
+    	</p>
+    	<p>
+    		学历：<select name="学历">
+    		<option value="大学">大学</option>
+    		<option value="中学">中学</option>
+    		<option value="小学">小学</option>
+    		<option value="神学学"selected="selected">神学学</option>
+    	</select>
+    	</p>
+    	<p>
+    		个人简历：<br />
+             <textarea cols="35" rows="10">在这里输入内容...</textarea><br />
+              
+             <input type="submit" value="确定"  name="submit" />
+             <input type="reset" value="重置"  name="reset" />
+    	</p>
+    	<p>
+    		上传头像：<input type="file"name="pic"/>
+    	</p>
+    	<p>
+    		隐藏域：<input type="hidden"name="IP"value="192.168.1.100"/>
+    	</p>
+    	<p>
+    		<input type="submit"value="提交"/>
+    	</p>
+</body>
+</html>
